@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p{
+    padding: 0 1rem;
+}
+.hero{
+    height: 90vh;
+    background: url('source/Comingsoonbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero__2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* hero 1 */
+.hero__1{
+    display: flex;
+    color: #2F509C;
+}
+.logo{
+    height: 2rem;
+}
+.comingSoon{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+.comingSoon-p{
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    word-spacing: .1rem;
+}
+.comingSoon-box{
+    margin: 7rem 0 0 3rem;
+}
+.btn-grp {
+    display: flex;
+}
+
+#btn-email,
+#btn-email:visited,
+#btn-email::selection,
+#btn-email:focus{
+    flex: 1;
+    padding: .5rem;
+    border-radius: .5rem 0 0 .5rem;
+    outline: blue;
+    border: none;
+}
+
+#btn,
+#btn:visited,
+#btn::selection,
+#btn:focus{
+    height: 2.5rem;
+    padding: .8rem;
+    align-self: flex-end;
+    outline: none;
+    border: none;
+    border-radius: 0 .5rem .5rem 0;
+    color: #fff;
+
+    background: linear-gradient(to right , #fec553, #fea328);
+}
+
+
+/* Svg */
+#bg_svg{
+    height: 43%;
+    animation: side 2s ease 1;
+}
+.smallC{
+    transform: translate(37rem, 10rem);
+}
+.smallC2{
+    transform: translate(35rem, 45rem) scale(1.5);
+}
+.quaterC{
+    transform: translate(8rem, 47rem);
+}
+.quaterC2{
+    transform: translate(14rem, 41rem) rotate(180deg);
+}
+.halfC{
+    transform: translate(10rem, -3rem);
+}
+.bigC{
+    transform: translate(47rem, 17rem) scale(2);
+}
+.ellipse{
+    transform: translate(15rem, 3rem);
+}
+.relayC{
+    transform: translate(30rem, 18rem);
+}
+
+/* Up */
+.up-1{
+    animation: up-1 1.6s ease infinite alternate;
+}
+.up-2{
+    animation: up-2 1.5s ease infinite alternate;
+}
+
+/* books */
+.books{
+    transform: translate(17rem, 15rem);
+}
+#book-1{
+    transition: all .25s;
+    transform-origin: 55%;
+    transform-box: fill-box;
+    animation: book-1 1.6s ease-in infinite alternate;
+}
+#book-2{
+    transition: all .25s;
+    transform-origin: left;
+    transform-box: fill-box;
+    animation: book-2 1.3s ease-out infinite alternate;
+}
+#book-3{
+    transition: all .25s;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: book-3 1.3s ease-in-out infinite alternate;
+}
+
+/* Animation */
+@keyframes book-1{
+    from{
+        transform: translateY(0rem) rotate(20deg);
+    }
+    to{
+        transform: translateY(4rem) rotate(-2deg);
+    }
+}
+@keyframes book-2{
+    from{
+        transform: translateY(13rem) rotate(1deg);
+    }
+    to{
+        transform: translateY(10.5rem) rotate(-3deg);
+    }
+}
+@keyframes book-3{
+    from{
+        transform: translateY(19rem) ;
+    }
+    to{
+        transform: translateY(16rem) ;
+    }
+}
+
+/* up */
+@keyframes up-1{
+    from{
+        transform: translateY(0rem) ;
+    }
+    to{
+        transform: translateY(1.5rem) ;
+    }
+}
+@keyframes up-2{
+    from{
+        transform: translateY(0rem) ;
+    }
+    to{
+        transform: translateY(1rem) ;
+    }
+}
+
+/* side */
+@keyframes side{
+    from{
+        opacity: 0;
+        transform: translateX(-20rem) ;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0rem) ;
+    }
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px){
+    #bg_svg{
+        display: none;
+    }
+    .comingSoon-box{
+        margin-left: 0;
+    }
+    .comingSoon{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .comingSoon-p{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .hero{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+        grid-row-gap: 17rem;
+    }
+}
