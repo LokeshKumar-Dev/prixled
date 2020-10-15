@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/prixled/static/css/main.3e475dcc.chunk.css",
+    "main.js": "/prixled/static/js/main.e791a3a3.chunk.js",
+    "main.js.map": "/prixled/static/js/main.e791a3a3.chunk.js.map",
+    "runtime-main.js": "/prixled/static/js/runtime-main.177a776c.js",
+    "runtime-main.js.map": "/prixled/static/js/runtime-main.177a776c.js.map",
+    "static/js/2.577b8a90.chunk.js": "/prixled/static/js/2.577b8a90.chunk.js",
+    "static/js/2.577b8a90.chunk.js.map": "/prixled/static/js/2.577b8a90.chunk.js.map",
+    "index.html": "/prixled/index.html",
+    "precache-manifest.fca3e7dff3a31fb059cae32a258ca195.js": "/prixled/precache-manifest.fca3e7dff3a31fb059cae32a258ca195.js",
+    "service-worker.js": "/prixled/service-worker.js",
+    "static/css/main.3e475dcc.chunk.css.map": "/prixled/static/css/main.3e475dcc.chunk.css.map",
+    "static/js/2.577b8a90.chunk.js.LICENSE.txt": "/prixled/static/js/2.577b8a90.chunk.js.LICENSE.txt",
+    "static/media/base.css": "/prixled/static/media/Comingsoonbackground.0c05c13f.png",
+    "static/media/Logo.svg": "/prixled/static/media/Logo.2ba58ba3.svg",
+    "static/media/bg-anime.svg": "/prixled/static/media/bg-anime.92a64222.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.177a776c.js",
+    "static/js/2.577b8a90.chunk.js",
+    "static/css/main.3e475dcc.chunk.css",
+    "static/js/main.e791a3a3.chunk.js"
+  ]
+}
