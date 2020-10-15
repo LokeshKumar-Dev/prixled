@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p{
+    padding: 0 1rem;
+}
+.hero{
+    height: 90vh;
+    background: url('../assets/Comingsoonbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px){
+    #bg_svg{
+        display: none;
+    }
+    .comingSoon-box{
+        margin-left: 0;
+    }
+    .comingSoon{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .comingSoon-p{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .hero{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 2fr;
+        grid-row-gap: 17rem;
+    }
+}

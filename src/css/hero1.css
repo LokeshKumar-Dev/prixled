@@ -1,0 +1,51 @@
+.hero__1{
+    display: flex;
+    color: #2F509C;
+}
+.logo{
+    height: 2rem;
+}
+.comingSoon{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+.comingSoon-p{
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    word-spacing: .1rem;
+}
+.comingSoon-box{
+    margin: 7rem 0 0 3rem;
+}
+.btn-grp {
+    display: flex;
+}
+
+#btn-email,
+#btn-email:visited,
+#btn-email::selection,
+#btn-email:focus{
+    flex: 1;
+    padding: .5rem;
+    border-radius: .5rem 0 0 .5rem;
+    outline: blue;
+    border: none;
+}
+
+#btn,
+#btn:visited,
+#btn::selection,
+#btn:focus{
+    height: 2.5rem;
+    padding: .8rem;
+    align-self: flex-end;
+    outline: none;
+    border: none;
+    border-radius: 0 .5rem .5rem 0;
+    color: #fff;
+
+    background: linear-gradient(to right , #fec553, #fea328);
+}
