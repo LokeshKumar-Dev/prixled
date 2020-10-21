@@ -42,3 +42,24 @@
         grid-row-gap: 17rem;
     }
 }
+
+@media only screen and (max-width: 480px){
+    .hero{
+        grid-row-gap: 17rem;
+        background-size: 100% 636px;
+        height: 100%;
+        width: 100%;
+    }
+    .comingSoon-box{
+        margin-top: 15px;
+    }
+    .comingSoon{
+        font-size: 1.7rem;
+    }
+    .comingSoon-p{
+        line-height: 1.1rem;
+        font-size: .9rem;
+        font-weight: 200;
+        word-spacing: normal;
+    }
+}
