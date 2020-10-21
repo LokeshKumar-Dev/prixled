@@ -45,10 +45,8 @@
 
 @media only screen and (max-width: 480px){
     .hero{
-        grid-row-gap: 17rem;
+        grid-row-gap: 0;
         background-size: 100% 636px;
-        height: 100%;
-        width: 100%;
     }
     .comingSoon-box{
         margin-top: 15px;
