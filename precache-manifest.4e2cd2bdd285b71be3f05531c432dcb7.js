@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7c79930ca658f59f5fb810152a8c067",
+    "revision": "c96d50cd011ee162984c6ce62d8377a0",
     "url": "/prixled/index.html"
   },
   {
-    "revision": "b8ec0d80d6dd4f531874",
-    "url": "/prixled/static/css/main.3e475dcc.chunk.css"
+    "revision": "2979aef7e59e1df844f6",
+    "url": "/prixled/static/css/main.e954e670.chunk.css"
   },
   {
     "revision": "5949ef739446db8e5215",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prixled/static/js/2.577b8a90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8ec0d80d6dd4f531874",
+    "revision": "2979aef7e59e1df844f6",
     "url": "/prixled/static/js/main.e791a3a3.chunk.js"
   },
   {
